@@ -8846,11 +8846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mnmai\\source\\repos\\PropertyPlusApp\\PropertyPlusApp\\PropertyPlusApp.csproj",
+      "projectUniqueName": "C:\\Users\\mnmai\\OneDrive\\Documents\\GitHub\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj",
       "projectName": "PropertyPlusApp",
-      "projectPath": "C:\\Users\\mnmai\\source\\repos\\PropertyPlusApp\\PropertyPlusApp\\PropertyPlusApp.csproj",
+      "projectPath": "C:\\Users\\mnmai\\OneDrive\\Documents\\GitHub\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj",
       "packagesPath": "C:\\Users\\mnmai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mnmai\\source\\repos\\PropertyPlusApp\\PropertyPlusApp\\obj\\",
+      "outputPath": "C:\\Users\\mnmai\\OneDrive\\Documents\\GitHub\\PropertyPlus2\\PropertyPlusApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mnmai\\AppData\\Roaming\\NuGet\\NuGet.Config",
