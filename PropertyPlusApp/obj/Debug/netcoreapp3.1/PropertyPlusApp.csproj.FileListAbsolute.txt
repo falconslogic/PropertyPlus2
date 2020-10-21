@@ -386,7 +386,6 @@ C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
-C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
@@ -406,3 +405,4 @@ C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.dll
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.pdb
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.genruntimeconfig.cache
+C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\_ValidationScriptsPartial.cshtml.g.cs
