@@ -339,7 +339,6 @@ C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\bin\Debug
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.csprojAssemblyReference.cache
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.AssemblyInfoInputs.cache
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.AssemblyInfo.cs
 C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.csproj.CoreCompileInputs.cache
