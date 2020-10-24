@@ -608,3 +608,4 @@ C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.dll
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.pdb
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.genruntimeconfig.cache
+C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.csprojAssemblyReference.cache
