@@ -814,3 +814,6 @@ C:\Users\falconslogi\Desktop\SoftwareE\PropertyPlusApp\PropertyPlusApp\obj\Debug
 C:\Users\falconslogi\Desktop\SoftwareE\PropertyPlusApp\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.pdb
 C:\Users\falconslogi\Desktop\SoftwareE\PropertyPlusApp\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.genruntimeconfig.cache
 C:\Users\falconslogi\Desktop\SoftwareE\PropertyPlusApp\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\RoleManager\Index.cshtml.g.cs
+C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\RoleManager\Index.cshtml.g.cs
+C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\UserRoles\Index.cshtml.g.cs
+C:\Users\mnmai\OneDrive\Documents\GitHub\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\UserRoles\Manage.cshtml.g.cs

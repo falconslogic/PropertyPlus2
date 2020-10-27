@@ -8841,19 +8841,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\falconslogi\\.nuget\\packages\\": {}
+    "C:\\Users\\mnmai\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\falconslogi\\Desktop\\SoftwareE\\PropertyPlusApp\\PropertyPlusApp\\PropertyPlusApp.csproj",
+      "projectUniqueName": "C:\\Users\\mnmai\\OneDrive\\Documents\\GitHub\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj",
       "projectName": "PropertyPlusApp",
-      "projectPath": "C:\\Users\\falconslogi\\Desktop\\SoftwareE\\PropertyPlusApp\\PropertyPlusApp\\PropertyPlusApp.csproj",
-      "packagesPath": "C:\\Users\\falconslogi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\falconslogi\\Desktop\\SoftwareE\\PropertyPlusApp\\PropertyPlusApp\\obj\\",
+      "projectPath": "C:\\Users\\mnmai\\OneDrive\\Documents\\GitHub\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj",
+      "packagesPath": "C:\\Users\\mnmai\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mnmai\\OneDrive\\Documents\\GitHub\\PropertyPlus2\\PropertyPlusApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\falconslogi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mnmai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8922,7 +8922,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
