@@ -48,5 +48,10 @@ namespace PropertyPlusApp.Data
                 entity.ToTable("UserTokens");
             });
         }
+        public DbSet<PropertyPlusApp.Models.PropertyOwner> PropertyOwner { get; set; }
+        public DbSet<PropertyPlusApp.Models.PropertyLeaser> PropertyLeaser { get; set; }
+        public DbSet<PropertyPlusApp.Models.Property> Property { get; set; }
+        public DbSet<PropertyPlusApp.Models.MaintenanceRequest> MaintenanceRequest { get; set; }
+        public DbSet<PropertyPlusApp.Models.PaymentHistory> PaymentHistory { get; set; }
     }
 }
