@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nixon\\Source\\Repos\\falconslogic\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj": {}
+    "C:\\Users\\komal\\source\\repos\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nixon\\Source\\Repos\\falconslogic\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj": {
+    "C:\\Users\\komal\\source\\repos\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nixon\\Source\\Repos\\falconslogic\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj",
+        "projectUniqueName": "C:\\Users\\komal\\source\\repos\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj",
         "projectName": "PropertyPlusApp",
-        "projectPath": "C:\\Users\\nixon\\Source\\Repos\\falconslogic\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj",
-        "packagesPath": "C:\\Users\\nixon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nixon\\Source\\Repos\\falconslogic\\PropertyPlus2\\PropertyPlusApp\\obj\\",
+        "projectPath": "C:\\Users\\komal\\source\\repos\\PropertyPlus2\\PropertyPlusApp\\PropertyPlusApp.csproj",
+        "packagesPath": "C:\\Users\\komal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\komal\\source\\repos\\PropertyPlus2\\PropertyPlusApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nixon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\komal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,13 +18,24 @@ namespace PropertyPlusApp.Models
         public int OwnerId { get; set; }
         public int LeaserId { get; set; }
         public byte[] Picture { get; set; }
+
+        [Required]
         public string Address { get; set; }
 
         [Display(Name = "Sq ft")]
+        [Required]
         public int? SquareFeet { get; set; }
+
+        [Required]
         public int? Bedrooms { get; set; }
+
+        [Required]
         public double? Baths { get; set; }
+
+        [Required]
         public int? Year { get; set; }
+
+        [Required]
         public string Features { get; set; }
 
         [Display(Name = "Monthly Rate")]

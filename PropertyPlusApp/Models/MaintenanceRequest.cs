@@ -11,8 +11,12 @@ namespace PropertyPlusApp.Models
         [Key]
         public int MaintenanceId { get; set; }
         public int PropertyId { get; set; }
+
+        [Required]
         public string Description { get; set; }
         public string Documents { get; set; }
+
+        [Required]
         public string Priority { get; set; }
 
         public virtual Property Property { get; set; }

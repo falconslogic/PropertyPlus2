@@ -15,12 +15,30 @@ namespace PropertyPlusApp.Models
 
         [Key]
         public int OwnerId { get; set; }
+
+        [Display(Name = "First Name")]
+        [Required(ErrorMessage = "First Name is required.")]
         public string FirstName { get; set; }
+
+        [Display(Name = "Last Name")]
+        [Required(ErrorMessage = "Last Name is required.")]
         public string LastName { get; set; }
+
+        [Display(Name = "Email Address")]
+        [DataType(DataType.EmailAddress, ErrorMessage = "Invalid emaild address")]
+        [Required(ErrorMessage = "Email-Id is required.")]
         public string Email { get; set; }
+
+        [Required(ErrorMessage = "Street address is required.")]
         public string Address { get; set; }
+
+        [Required(ErrorMessage = "City is required.")]
         public string City { get; set; }
+
+        [Required(ErrorMessage = "State is required.")]
         public string State { get; set; }
+
+        [Required(ErrorMessage = "Zipcode is required.")]
         public int? ZipCode { get; set; }
         public string Comments { get; set; }
 

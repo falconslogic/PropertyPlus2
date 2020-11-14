@@ -1166,3 +1166,5 @@ C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\RoleManager\Index.cshtml.g.cs
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\UserRoles\Index.cshtml.g.cs
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\UserRoles\Manage.cshtml.g.cs
+C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutUser.cshtml.g.cs
+C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
