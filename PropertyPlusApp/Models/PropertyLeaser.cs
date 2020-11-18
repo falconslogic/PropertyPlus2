@@ -18,10 +18,12 @@ namespace PropertyPlusApp.Models
 
         [Display(Name = "First Name")]
         [Required(ErrorMessage = "First Name is required.")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
         public string FirstName { get; set; }
 
         [Display(Name = "Last Name")]
         [Required(ErrorMessage = "Last Name is required.")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
         public string LastName { get; set; }
 
         [Display(Name = "Email Address")]
@@ -35,16 +37,18 @@ namespace PropertyPlusApp.Models
 
 
         [Required(ErrorMessage = "City is required.")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
         public string City { get; set; }
 
-        [Required(ErrorMessage = "State is required.")]        
+        [Required(ErrorMessage = "State is required.")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
         public string State { get; set; }
 
         [Required(ErrorMessage = "Zipcode is required.")]
         public int? ZipCode { get; set; }
         public string Comments { get; set; }
-
         public string FullName { get { return FirstName + " " + LastName; } }
+
         [Display(Name = "Phone Number")]
         public string PhoneNumber { get; set; }
         public virtual ICollection<Property> Property { get; set; }

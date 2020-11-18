@@ -44,11 +44,14 @@ namespace PropertyPlusApp.Models
 
         [Display(Name = "Contract Time")]
         public string ContractTime { get; set; }
+        
         public int PaymentId { get; set; }
 
         public virtual PropertyLeaser Leaser { get; set; }
         public virtual PropertyOwner Owner { get; set; }
+
+        [Display(Name = "Number of Payments")]
         public virtual PaymentHistory Payment { get; set; }
-        public virtual ICollection<MaintenanceRequest> MaintenanceRequest { get; set; }
+        public virtual ICollection<MaintenanceRequest> MaintenanceRequest { get; set; }       
     }
 }

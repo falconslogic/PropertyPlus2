@@ -12,11 +12,13 @@ namespace PropertyPlusApp.Models
         public int MaintenanceId { get; set; }
         public int PropertyId { get; set; }
 
-        [Required]
+        [Required]    
         public string Description { get; set; }
         public string Documents { get; set; }
-
+        
         [Required]
+        [Display(Name = "Priority[Urgent/Non-Urgent]")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
         public string Priority { get; set; }
 
         public virtual Property Property { get; set; }

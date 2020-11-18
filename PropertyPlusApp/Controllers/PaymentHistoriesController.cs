@@ -33,7 +33,7 @@ namespace PropertyPlusApp.Controllers
                 return NotFound();
             }
 
-            var paymentHistory = await _context.PaymentHistory
+            var paymentHistory = await _context.PaymentHistory.Include(p => p.Property).ThenInclude(s => s.Leaser)
                 .FirstOrDefaultAsync(m => m.PaymentId == id);
             if (paymentHistory == null)
             {

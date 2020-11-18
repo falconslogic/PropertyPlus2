@@ -1043,7 +1043,6 @@ C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.csproj.CoreCompileInputs.cache
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.csprojAssemblyReference.cache
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\PropertyOwners\Create.cshtml.g.cs
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\PropertyOwners\Delete.cshtml.g.cs
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\PropertyOwners\Details.cshtml.g.cs
@@ -1168,3 +1167,4 @@ C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\UserRoles\Manage.cshtml.g.cs
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutUser.cshtml.g.cs
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
+C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.csprojAssemblyReference.cache

@@ -105,7 +105,7 @@
                 @Html.DisplayFor(modelItem => item.Owner.FullName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Payment.PaymentId)
+                @Html.DisplayFor(modelItem => item.Payment.TotalPayments)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.PropertyId">Edit</a> |

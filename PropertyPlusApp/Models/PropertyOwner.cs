@@ -18,10 +18,12 @@ namespace PropertyPlusApp.Models
 
         [Display(Name = "First Name")]
         [Required(ErrorMessage = "First Name is required.")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
         public string FirstName { get; set; }
 
         [Display(Name = "Last Name")]
         [Required(ErrorMessage = "Last Name is required.")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
         public string LastName { get; set; }
 
         [Display(Name = "Email Address")]
@@ -33,9 +35,11 @@ namespace PropertyPlusApp.Models
         public string Address { get; set; }
 
         [Required(ErrorMessage = "City is required.")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
         public string City { get; set; }
 
         [Required(ErrorMessage = "State is required.")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
         public string State { get; set; }
 
         [Required(ErrorMessage = "Zipcode is required.")]

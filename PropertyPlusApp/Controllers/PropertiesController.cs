@@ -59,7 +59,7 @@ namespace PropertyPlusApp.Controllers
         {
             ViewData["LeaserId"] = new SelectList(_context.PropertyLeaser, "LeaserId", "FullName");
             ViewData["OwnerId"] = new SelectList(_context.PropertyOwner, "OwnerId", "FullName");
-            ViewData["PaymentId"] = new SelectList(_context.Set<PaymentHistory>(), "PaymentId", "PaymentId");
+            ViewData["PaymentId"] = new SelectList(_context.Set<PaymentHistory>(), "PaymentId", "TotalPayments");
             return View();
         }
 
@@ -78,7 +78,7 @@ namespace PropertyPlusApp.Controllers
             }
             ViewData["LeaserId"] = new SelectList(_context.PropertyLeaser, "LeaserId", "FullName", @property.LeaserId);
             ViewData["OwnerId"] = new SelectList(_context.PropertyOwner, "OwnerId", "FullName", @property.OwnerId);
-            ViewData["PaymentId"] = new SelectList(_context.Set<PaymentHistory>(), "PaymentId", "PaymentId", @property.PaymentId);
+            ViewData["PaymentId"] = new SelectList(_context.Set<PaymentHistory>(), "PaymentId", "TotalPayments", @property.PaymentId);
             return View(@property);
         }
 
@@ -97,7 +97,7 @@ namespace PropertyPlusApp.Controllers
             }
             ViewData["LeaserId"] = new SelectList(_context.PropertyLeaser, "LeaserId", "FullName", @property.LeaserId);
             ViewData["OwnerId"] = new SelectList(_context.PropertyOwner, "OwnerId", "FullName", @property.OwnerId);
-            ViewData["PaymentId"] = new SelectList(_context.Set<PaymentHistory>(), "PaymentId", "PaymentId", @property.PaymentId);
+            ViewData["PaymentId"] = new SelectList(_context.Set<PaymentHistory>(), "PaymentId", "TotalPayments", @property.PaymentId);
             return View(@property);
         }
 
@@ -135,7 +135,7 @@ namespace PropertyPlusApp.Controllers
             }
             ViewData["LeaserId"] = new SelectList(_context.PropertyLeaser, "LeaserId", "FullName", @property.LeaserId);
             ViewData["OwnerId"] = new SelectList(_context.PropertyOwner, "OwnerId", "FullName", @property.OwnerId);
-            ViewData["PaymentId"] = new SelectList(_context.Set<PaymentHistory>(), "PaymentId", "PaymentId", @property.PaymentId);
+            ViewData["PaymentId"] = new SelectList(_context.Set<PaymentHistory>(), "PaymentId", "TotalPayments", @property.PaymentId);
             return View(@property);
         }
 

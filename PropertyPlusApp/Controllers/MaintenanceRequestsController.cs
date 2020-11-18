@@ -48,7 +48,7 @@ namespace PropertyPlusApp.Controllers
         // GET: MaintenanceRequests/Create
         public IActionResult Create()
         {
-            ViewData["PropertyId"] = new SelectList(_context.Property, "PropertyId", "PropertyId");
+            ViewData["PropertyId"] = new SelectList(_context.Property, "PropertyId", "Address");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace PropertyPlusApp.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PropertyId"] = new SelectList(_context.Property, "PropertyId", "PropertyId", maintenanceRequest.PropertyId);
+            ViewData["PropertyId"] = new SelectList(_context.Property, "PropertyId", "Address", maintenanceRequest.PropertyId);
             return View(maintenanceRequest);
         }
 
@@ -82,7 +82,7 @@ namespace PropertyPlusApp.Controllers
             {
                 return NotFound();
             }
-            ViewData["PropertyId"] = new SelectList(_context.Property, "PropertyId", "PropertyId", maintenanceRequest.PropertyId);
+            ViewData["PropertyId"] = new SelectList(_context.Property, "PropertyId", "Address", maintenanceRequest.PropertyId);
             return View(maintenanceRequest);
         }
 
@@ -118,7 +118,7 @@ namespace PropertyPlusApp.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PropertyId"] = new SelectList(_context.Property, "PropertyId", "PropertyId", maintenanceRequest.PropertyId);
+            ViewData["PropertyId"] = new SelectList(_context.Property, "PropertyId", "Address", maintenanceRequest.PropertyId);
             return View(maintenanceRequest);
         }
 
