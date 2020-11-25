@@ -34,8 +34,7 @@ namespace PropertyPlusApp.Controllers
                 return NotFound();
             }
 
-            var maintenanceRequest = await _context.MaintenanceRequest
-                .Include(m => m.Property)
+            var maintenanceRequest = await _context.MaintenanceRequest.Include(m => m.Property).ThenInclude(n => n.Leaser)
                 .FirstOrDefaultAsync(m => m.MaintenanceId == id);
             if (maintenanceRequest == null)
             {

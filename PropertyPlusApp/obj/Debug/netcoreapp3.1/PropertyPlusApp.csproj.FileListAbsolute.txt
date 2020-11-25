@@ -1167,4 +1167,7 @@ C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\UserRoles\Manage.cshtml.g.cs
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutUser.cshtml.g.cs
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
+C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.PropertyPlus - Web Deploy.json
+C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\PropertyPlus - Web Deploy\mssql1.arm.json
+C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\PropertyPlus - Web Deploy\profile.arm.json
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.csprojAssemblyReference.cache
