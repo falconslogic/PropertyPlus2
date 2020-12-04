@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PropertyPlusApp.Data;
 using PropertyPlusApp.Models;
-
 namespace PropertyPlusApp.Controllers
 {
     public class MaintenanceRequestsController : Controller
@@ -62,7 +61,7 @@ namespace PropertyPlusApp.Controllers
             {
                 _context.Add(maintenanceRequest);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Create));
             }
             ViewData["PropertyId"] = new SelectList(_context.Property, "PropertyId", "Address", maintenanceRequest.PropertyId);
             return View(maintenanceRequest);
