@@ -6,9 +6,6 @@
 
 <h1>Leasers</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -72,11 +69,19 @@
             <td>
                 @Html.DisplayFor(modelItem => item.PhoneNumber)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.LeaserId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.LeaserId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.LeaserId">Delete</a>
-            </td>
+            @if (User.IsInRole("Admin"))
+            {
+                <td>                    
+                    <a asp-action="Details" asp-route-id="@item.LeaserId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.LeaserId">Delete</a>
+                </td>
+            }
+            else if (User.IsInRole("Basic"))
+            {
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.LeaserId">Details</a>
+                </td>
+            }            
         </tr>
 }
     </tbody>

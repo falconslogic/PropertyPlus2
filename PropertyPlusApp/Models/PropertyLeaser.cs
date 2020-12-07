@@ -13,7 +13,7 @@ namespace PropertyPlusApp.Models
             Property = new HashSet<Property>();
         }
 
-        [Key]
+        [Key]        
         public int LeaserId { get; set; }
 
         [Display(Name = "First Name")]
@@ -37,7 +37,7 @@ namespace PropertyPlusApp.Models
 
 
         [Required(ErrorMessage = "City is required.")]
-        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Not a valid entry")]
+        [RegularExpression(@"^[a-zA-Z ]+$", ErrorMessage = "Not a valid entry")]
         public string City { get; set; }
 
         [Required(ErrorMessage = "State is required.")]

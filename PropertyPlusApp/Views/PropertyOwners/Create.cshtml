@@ -7,6 +7,15 @@
 <h1>Create</h1>
 
 <h4>PropertyOwner</h4>
+
+@if (User.IsInRole("Admin"))
+{
+    <div>
+        <a>If you have already have an account then </a>
+        <a asp-action="Index">go to List</a>
+    </div>
+}
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -59,7 +68,5 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 

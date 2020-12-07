@@ -22,7 +22,7 @@ namespace PropertyPlusApp.Controllers
         // GET: PaymentHistories
         public async Task<IActionResult> Index()
         {
-            return View(await _context.PaymentHistory.ToListAsync());
+            return View(await _context.PaymentHistory.ToListAsync());            
         }
 
         // GET: PaymentHistories/Details/5

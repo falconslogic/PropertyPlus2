@@ -6,9 +6,6 @@
 
 <h1>Owners</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -66,8 +63,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Comments)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.OwnerId">Edit</a> |
+            <td>                
                 <a asp-action="Details" asp-route-id="@item.OwnerId">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.OwnerId">Delete</a>
             </td>

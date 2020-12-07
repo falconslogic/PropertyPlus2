@@ -13,7 +13,7 @@ namespace PropertyPlusApp.Models
             Property = new HashSet<Property>();
         }
 
-        [Key]
+        [Key]      
         public int OwnerId { get; set; }
 
         [Display(Name = "First Name")]

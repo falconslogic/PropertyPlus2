@@ -18,8 +18,12 @@
 
 
 <p>
-    <a asp-action="Create">Create New</a>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Create">Create New</a>
+    }
 </p>
+
 <table class="table">
     <thead>
         <tr>
@@ -107,11 +111,20 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Payment.TotalPayments)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.PropertyId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PropertyId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PropertyId">Delete</a>
-            </td>
+            @if (User.IsInRole("Admin"))
+            {
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PropertyId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.PropertyId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.PropertyId">Delete</a>
+                </td>
+            }
+            else if (User.IsInRole("Basic"))
+            {
+                <td>                    
+                    <a asp-action="Details" asp-route-id="@item.PropertyId">Details</a>                    
+                </td>
+            }
         </tr>
 }
     </tbody>
