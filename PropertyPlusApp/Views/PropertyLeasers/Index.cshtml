@@ -69,19 +69,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.PhoneNumber)
             </td>
-            @if (User.IsInRole("Admin"))
-            {
-                <td>                    
-                    <a asp-action="Details" asp-route-id="@item.LeaserId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.LeaserId">Delete</a>
-                </td>
-            }
-            else if (User.IsInRole("Basic"))
-            {
-                <td>
-                    <a asp-action="Details" asp-route-id="@item.LeaserId">Details</a>
-                </td>
-            }            
+            <td>
+                <a asp-action="Details" asp-route-id="@item.LeaserId">Details</a>
+            </td>           
         </tr>
 }
     </tbody>
