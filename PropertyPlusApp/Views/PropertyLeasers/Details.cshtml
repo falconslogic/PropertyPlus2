@@ -67,14 +67,14 @@
     </dl>
 </div>
 
-@if (User.IsInRole("Basic"))
+@if (User.IsInRole("Admin"))
 {
     <div>
         <a asp-action="Edit" asp-route-id="@Model.LeaserId">Edit</a> |
         <a asp-action="Index">Back to List</a>
     </div>
 }
-else if (User.IsInRole("Admin"))
+else if (User.IsInRole("Basic"))
 {
     <div>        
         <a asp-action="Index">Back to List</a>

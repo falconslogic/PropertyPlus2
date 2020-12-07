@@ -45,19 +45,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.TotalMonths)
             </td>
-            @if (User.IsInRole("Admin"))
-            {
-                <td>                    
-                    <a asp-action="Details" asp-route-id="@item.PaymentId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.PaymentId">Delete</a>
-                </td>
-            }
-            else if (User.IsInRole("Basic"))
-            {
-                <td>
-                    <a asp-action="Details" asp-route-id="@item.PaymentId">Details</a>
-                </td>
-            }            
+            <td>
+                <a asp-action="Details" asp-route-id="@item.PaymentId">Details</a>
+            </td>            
         </tr>
 }
     </tbody>
