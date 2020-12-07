@@ -465,7 +465,6 @@ C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -1176,3 +1175,4 @@ C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\komal\source\repos\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\PropertyPlusApp.csprojAssemblyReference.cache
+C:\Users\nixon\Source\Repos\falconslogic\PropertyPlus2\PropertyPlusApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
